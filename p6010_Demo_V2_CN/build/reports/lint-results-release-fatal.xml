@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 3.2.0">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="126"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="57"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="149"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="57"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="181"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="57"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="203"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\accesstag.xml"
+            line="57"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/CycleBtn`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1=" &lt;Button android:layout_width=&quot;wrap_content&quot; android:text=&quot;上传数据&quot; android:layout_height=&quot;wrap_content&quot; android:id=&quot;@+id/CycleBtn&quot;"
+        errorLine2="                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\inventory.xml"
+            line="36"
+            column="103"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\inventory.xml"
+            line="32"
+            column="103"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="197"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="145"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="307"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="145"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="389"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="145"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="413"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="145"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="436"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="145"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/countTXT`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="         android:id=&quot;@+id/countTXT&quot;"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="458"
+            column="10"/>
+        <location
+            file="C:\Users\Administrator\AndroidStudioProjects\numberchoose\p6010_Demo_V2_CN\src\main\res\layout\settings.xml"
+            line="145"
+            column="10"/>
+    </issue>
+
+</issues>

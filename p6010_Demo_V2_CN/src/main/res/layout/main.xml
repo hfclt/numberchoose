@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InventorActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        
+        <ImageView 
+            android:layout_width="80dip"
+        	android:layout_height="80dip"
+        	android:background="@drawable/logo"
+        	android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_inventor"
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/launcher_button_vertical_margin"
+                android:layout_marginRight="@dimen/launcher_button_horizontal_margin"
+                android:layout_marginTop="@dimen/launcher_button_vertical_margin"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_launcher_reader"
+                android:paddingBottom="@dimen/launcher_button_vertical_padding"
+                android:paddingTop="@dimen/launcher_button_vertical_padding"
+                android:text="循环读标" 
+                />
+
+            <Button
+                android:id="@+id/bt_accesstag"
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/launcher_button_vertical_margin"
+                android:layout_marginLeft="@dimen/launcher_button_horizontal_margin"
+                android:layout_marginTop="@dimen/launcher_button_vertical_margin"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_launcher_writer"
+                android:paddingBottom="@dimen/launcher_button_vertical_padding"
+                android:paddingTop="@dimen/launcher_button_vertical_padding"
+                android:text="标签操作" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+             <Button
+                android:id="@+id/bt_filter"
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/launcher_button_vertical_margin"
+                android:layout_marginLeft="@dimen/launcher_button_horizontal_margin"
+                android:layout_marginTop="@dimen/launcher_button_vertical_margin"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_launcher_helper"
+                android:paddingBottom="@dimen/launcher_button_vertical_padding"
+                android:paddingTop="@dimen/launcher_button_vertical_padding"
+                android:text="上锁销毁" 
+                />
+
+            <Button
+                android:id="@+id/bt_settings"
+                style="?android:attr/buttonStyleInset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/launcher_button_vertical_margin"
+                android:layout_marginRight="@dimen/launcher_button_horizontal_margin"
+                android:layout_marginTop="@dimen/launcher_button_vertical_margin"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_launcher_viewer"
+                android:paddingBottom="@dimen/launcher_button_vertical_padding"
+                android:paddingTop="@dimen/launcher_button_vertical_padding"
+                android:text="功能设置" />
+
+           
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/infos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="V1.0.0" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:keepScreenOn="true">
+
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="0.78">
+    	<TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="标签个数:0"
+        	android:textSize="20dp" >
+    	</TextView>
+        <ListView
+            android:id="@+id/lvReception"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:keepScreenOn="true"
+    android:orientation="horizontal" >
+	<Button android:layout_width="wrap_content" android:text=" 单  次 " android:layout_height="wrap_content" android:id="@+id/SingleBtn"
+		    android:onClick="single"></Button>
+	<Button android:layout_width="wrap_content" android:text="开始循环" android:layout_height="wrap_content" android:id="@+id/CycleBtn"
+	        android:onClick="Test"
+	    > 
+	    </Button>
+	<Button android:layout_width="wrap_content" android:text="上传数据" android:layout_height="wrap_content" android:id="@+id/UploadBtn"
+		android:onClick="Upload"
+		>
+	</Button>
+	<Button
+	    android:id="@+id/SaveBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="save" />
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:keepScreenOn="true"
+    android:orientation="horizontal" >	
+	<Button android:layout_width="wrap_content" android:text="停止循环" android:layout_height="wrap_content" android:id="@+id/StopBtn"> </Button>
+	<Button android:layout_width="wrap_content" android:text=" 清 除 " android:layout_height="wrap_content" android:id="@+id/CleanBtn"> </Button>
+    <Button android:layout_width="wrap_content" android:text=" 测试数据 " android:layout_height="wrap_content"
+        android:id="@+id/TestsqlliteBtn"
+        android:onClick="Testsqlite" > </Button>
+	<CheckBox
+	    android:id="@+id/checkBox1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="声音开关" />
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+

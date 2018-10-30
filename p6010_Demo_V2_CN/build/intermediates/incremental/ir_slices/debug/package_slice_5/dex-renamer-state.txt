@@ -1,0 +1,4 @@
+#Fri Sep 28 03:16:06 CST 2018
+base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

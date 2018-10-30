@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.example.testuhfapi"
+        minSdkVersion 8
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation files('libs/mysql-connector-5.1.25.jar')
+//   implementation 'com.android.support:support-v4:22.+'
+    implementation files('C:/Users/Administrator/AndroidStudioProjects/numberchoose/libs/android-support-v4.jar')
+    implementation files('jar/UHFAPI.jar')
+}
+

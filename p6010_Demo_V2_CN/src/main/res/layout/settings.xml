@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabHost"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TabWidget
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@android:id/tabs"
+    />
+    
+    <FrameLayout
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/tabcontent"
+     >
+     
+        
+        <!-- TAG2  -->
+
+<LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:id="@+id/tab2"
+   android:orientation="vertical"
+   android:paddingTop="60px"
+    >
+     
+	 <!-- Region Start --> 	    
+   <LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical" 
+   android:background="#235690"
+   android:layout_weight="1"
+   >
+        
+   	<TextView
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="center"
+   	    android:layout_weight="1"
+   	    android:text="区域设置"
+   	    android:textSize="20dp" >
+
+   	</TextView>
+    	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+    	 <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="存储"
+        	android:textSize="20dp" >
+    	</TextView>   
+    	
+    	 <Spinner
+    	     android:id="@+id/sp_region_save"
+    	     android:layout_width="140dp"
+    	     android:layout_height="wrap_content"
+    	     android:textSize="20dp" >
+
+    	</Spinner>
+    		
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+    	 <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="区域"
+        	android:textSize="20dp" >
+    	</TextView>   
+    	
+    	 <Spinner
+    	    android:id="@+id/sp_region_region"
+        	android:layout_width="140dp"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" >
+    	</Spinner>
+    		
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+    	<Button
+    	    android:id="@+id/bt_region_get"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="获取"
+        	android:textSize="20dp" >
+    		</Button>
+    		
+    	     <Button
+    	    android:id="@+id/bt_region_set"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" 
+        	android:text="设置"
+        	>
+    		</Button>
+    	</LinearLayout>
+    </LinearLayout>
+  <!-- Region END -->  
+
+<LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical" 
+    android:background="#245660"
+   android:layout_weight="1"
+   >  
+  
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_weight="1"
+      android:text="间隔时间"
+      android:textSize="20dp" >
+  </TextView>
+    	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" >
+
+         <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="工作时间"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+         <SeekBar
+             android:id="@+id/sb_worktime"
+             android:layout_width="140dp"
+             android:layout_height="wrap_content"
+             android:max="65535"
+             android:progress="0" />
+    	</LinearLayout>
+    	
+    	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" > 
+         <EditText
+    	    android:id="@+id/et_worktime"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:numeric="integer"
+        	android:maxLength="5"
+        	android:minWidth="80dp"
+        	android:textSize="20dp" 
+        	>
+    		</EditText>
+
+         <TextView
+    	    android:id="@+id/tv_worktime"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="0ms"
+        	android:textSize="20dp" 
+        	>
+    		</TextView>
+         
+    	</LinearLayout>
+        
+        
+    	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" >
+
+         <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="间隔时间"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+         <SeekBar 
+            android:id="@+id/sb_inter"
+        	android:layout_width="140dp"
+        	android:layout_height="wrap_content"
+        	android:progress="0"
+        	android:max="65535"
+             />
+         </LinearLayout>
+       
+         <LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" >
+         <EditText
+    	    android:id="@+id/et_inter"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:numeric="integer"
+        	android:maxLength="5"
+        	android:minWidth="80dp"
+        	android:textSize="20dp" 
+        	>
+    		</EditText>
+         
+          <TextView
+    	    android:id="@+id/tv_inter"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="0ms"
+        	android:textSize="20dp" >
+    		</TextView>
+         
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" >
+    	    
+    	    <Button
+    	    android:id="@+id/bt_timer_get"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="获取"
+        	android:textSize="20dp" >
+    		</Button>
+    		
+    	     <Button
+    	    android:id="@+id/bt_timer_set"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" 
+        	android:text="设置"
+        	>
+    		</Button>
+    	</LinearLayout>
+    	
+</LinearLayout>
+ </LinearLayout>
+        
+        
+    
+        <!-- TAG1 -->
+<LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:id="@+id/tab1"
+   	android:keepScreenOn="true"
+	android:focusable="true"
+	android:focusableInTouchMode="true"
+	android:paddingTop="60px"
+	>
+
+<LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical" 
+   android:background="#235690"
+   android:layout_weight="1"
+        >
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:layout_weight="1"
+    	    android:text="功率"
+    	    android:textSize="20dp" >
+
+    	</TextView>
+    	
+
+    	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" >
+
+         <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="R/W"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+         <SeekBar 
+            android:id="@+id/sb_read"
+        	android:layout_width="200dp"
+        	android:layout_height="wrap_content"
+        	android:progress="5"
+        	android:max="30"
+             />
+         
+         <TextView
+    	    android:id="@+id/tv_set_read"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="5dBm"
+        	android:textSize="20dp" >
+    		</TextView>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="horizontal" >
+    	    
+    	    <Button
+    	    android:id="@+id/bt_setpower_get"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="获取"
+        	android:textSize="20dp" >
+    		</Button>
+    		
+    	     <Button
+    	    android:id="@+id/bt_setpower_set"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" 
+        	android:text="设置"
+        	>
+    		</Button>
+    	</LinearLayout>
+    	
+</LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#245660"
+   		android:layout_weight="2"
+        >
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:layout_weight="1"
+    	    android:text="Gen2"
+    	    android:textSize="20dp" >
+
+    	</TextView>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="horizontal" >
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="vertical" >
+    	    
+    	    <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="算法"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+    	     <Spinner
+    	    android:id="@+id/sp_set_cal"
+        	android:layout_width="100dp"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" >
+    		</Spinner>
+    	    
+    	    
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="vertical" >
+    	    
+    	    <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="起始Q"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+    	     <Spinner
+    	    android:id="@+id/sp_set_startq"
+        	android:layout_width="100dp"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" >
+    		</Spinner>
+    	      
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="vertical" >
+    	    
+    	    <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="最小Q"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+    	     <Spinner
+    	    android:id="@+id/sp_set_minq"
+        	android:layout_width="100dp"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" >
+    		</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:orientation="vertical" >
+    	    
+    	    <TextView
+    	    android:id="@+id/countTXT"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="最大Q"
+        	android:textSize="20dp" >
+    		</TextView>
+    		
+    	     <Spinner
+    	    android:id="@+id/sp_set_maxq"
+        	android:layout_width="100dp"
+        	android:layout_height="wrap_content"
+        	android:textSize="20dp" >
+    		</Spinner>
+    	</LinearLayout>
+    	
+</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="horizontal" >
+   	    
+   	    <Button
+   	    android:id="@+id/bt_setgen2_get"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="获取"
+       	android:textSize="20dp" >
+   		</Button>
+   		
+   	     <Button
+   	    android:id="@+id/bt_setgen2_set"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:textSize="20dp" 
+       	android:text="设置"
+       	>
+   		</Button>
+    	</LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#235690"
+   		android:layout_weight="1"
+        >
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:layout_weight="1"
+    	    android:text="重置模块设置"
+    	    android:textSize="20dp" >
+
+    	</TextView>
+
+<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="horizontal"
+	    android:layout_gravity="center"
+	    >
+   	    
+   	    <Button
+   	    android:id="@+id/bt_control_io"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="重置"
+       	android:textSize="20dp" >
+   		</Button>
+
+    	</LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
+        
+        
+        
+        
+        
+
+ 
+
+
+
+
+
+ </FrameLayout>
+ </TabHost>
+

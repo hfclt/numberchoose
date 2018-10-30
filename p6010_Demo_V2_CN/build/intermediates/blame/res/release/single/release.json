@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_settings.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_accesstag.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\accesstag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_filtertag.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\filtertag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_writer.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\ic_launcher_writer.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_png1.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-mdpi\\png1.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_export.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\ic_launcher_export.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_activity_main_recodes_element.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\activity_main_recodes_element.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_reader.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\ic_launcher_reader.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_png2.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-mdpi\\png2.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_helper.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\ic_launcher_helper.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\raw_beep.ogg.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_viewer.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\ic_launcher_viewer.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\raw_shibai.wav.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\raw\\shibai.wav"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_inventory.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\raw_duka3.wav.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\raw\\duka3.wav"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\build\\intermediates\\res\\merged\\release\\layout_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\numberchoose\\p6010_Demo_V2_CN\\src\\main\\res\\layout\\main.xml"
+    }
+]
